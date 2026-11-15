@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ChronoShot User Guide</title>
 <meta name="description" content="How to turn a sports video into one chronophotograph with ChronoShot: choosing a clip, the import review, every editor menu, and export.">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -73,10 +75,9 @@ img { max-width: 100%; height: auto; display: block; }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--text); }
 .brand:hover { text-decoration: none; }
 .brand-mark {
-  width: 28px; height: 28px; border-radius: 8px; background: var(--navy);
-  display: grid; place-items: center;
+  width: 32px; height: 32px; border-radius: 7px;
+  box-shadow: 0 0 0 1px var(--line);
 }
-.brand-mark svg { width: 20px; height: 20px; }
 .topbar .spacer { flex: 1; }
 .menu-button {
   display: none; border: 1px solid var(--line); background: var(--surface); color: var(--text);
@@ -195,9 +196,7 @@ footer { border-top: 1px solid var(--line); margin-top: 64px; padding-top: 20px;
 
 <header class="topbar">
   <a class="brand" href="#top">
-    <span class="brand-mark" aria-hidden="true">
-      <svg viewBox="0 0 20 20"><circle cx="4" cy="14" r="2.4" fill="#ff8a3d" opacity=".45"/><circle cx="8" cy="8.5" r="2.4" fill="#ff8a3d" opacity=".65"/><circle cx="12.5" cy="6" r="2.4" fill="#ff8a3d" opacity=".85"/><circle cx="16.5" cy="10" r="2.4" fill="#ff8a3d"/></svg>
-    </span>
+    <img class="brand-mark" src="images/app-icon-64.png" alt="" width="32" height="32">
     ChronoShot Guide
   </a>
   <span class="spacer"></span>
